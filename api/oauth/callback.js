@@ -1,4 +1,6 @@
 // api/oauth/callback.js
+export const config = { runtime: "nodejs20.x" };
+
 const { createClient } = require('@supabase/supabase-js');
 
 module.exports = async (req, res) => {

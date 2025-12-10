@@ -1,4 +1,6 @@
 // api/oauth/start.js
+export const config = { runtime: "nodejs20.x" };
+
 const crypto = require('crypto');
 
 module.exports = async (req, res) => {
