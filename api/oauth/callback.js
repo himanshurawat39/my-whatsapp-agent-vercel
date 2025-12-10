@@ -1,5 +1,4 @@
 // api/oauth/callback.js
-const fetch = require('node-fetch');
 const { createClient } = require('@supabase/supabase-js');
 
 module.exports = async (req, res) => {
