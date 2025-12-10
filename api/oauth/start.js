@@ -1,5 +1,5 @@
 // api/oauth/start.js
-export const config = { runtime: "nodejs20.x" };
+export const config = { runtime: "nodejs" };
 
 const crypto = require('crypto');
 

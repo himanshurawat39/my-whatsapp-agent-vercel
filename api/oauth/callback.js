@@ -1,5 +1,5 @@
 // api/oauth/callback.js
-export const config = { runtime: "nodejs20.x" };
+export const config = { runtime: "nodejs" };
 
 const { createClient } = require('@supabase/supabase-js');
 
