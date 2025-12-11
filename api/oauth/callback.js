@@ -1,7 +1,6 @@
 export const config = { runtime: "nodejs" };
 
 const { createClient } = require("@supabase/supabase-js");
-const fetch = require("node-fetch");
 
 module.exports = async function (req, res) {
   try {
